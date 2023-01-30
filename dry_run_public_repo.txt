@@ -1,0 +1,213 @@
+[dependabot-core-dev] ~/dependabot-core $ bin/dry-run.rb go_modules peggy-sun-fp/test-dependabot
+=> cloning into /home/dependabot/dependabot-core/tmp/peggy-sun-fp/test-dependabot
+=> parsing dependency files
+=> updating 38 dependencies: github.com/DATA-DOG/go-sqlmock, github.com/DataDog/datadog-go, github.com/aws/aws-sdk-go, github.com/buger/jsonparser, github.com/creasty/defaults, github.com/deliveryhero/pd-fluid-go-sdk/fluid, github.com/deliveryhero/pd-go-kit, github.com/deliveryhero/pd-oneview-go-toolkit, github.com/deliveryhero/pd-protobuf-go/customer-communications, github.com/deliveryhero/pd-protobuf-go/pablo, github.com/deliveryhero/pd-sts-go-sdk, github.com/dgraph-io/ristretto, github.com/go-chi/chi, github.com/go-chi/cors, github.com/go-co-op/gocron, github.com/go-playground/validator/v10, github.com/go-redis/redis/v8, github.com/go-sql-driver/mysql, github.com/golang-jwt/jwt, github.com/golang/protobuf, github.com/google/uuid, github.com/grpc-ecosystem/go-grpc-middleware, github.com/grpc-ecosystem/grpc-gateway, github.com/hashicorp/go-multierror, github.com/hashicorp/go-retryablehttp, github.com/kelseyhightower/envconfig, github.com/pkg/errors, github.com/pressly/goose, github.com/segmentio/ksuid, github.com/sirupsen/logrus, github.com/stretchr/testify, github.com/wI2L/jsondiff, golang.org/x/tools, google.golang.org/grpc, google.golang.org/protobuf, gopkg.in/DataDog/dd-trace-go.v1, gopkg.in/yaml.v2, gopkg.in/yaml.v3
+
+=== github.com/DATA-DOG/go-sqlmock (1.5.0)
+ => checking for updates 1/38
+ => latest available version is 1.5.0
+    (no update needed as it's already up-to-date)
+
+=== github.com/DataDog/datadog-go (4.8.3+incompatible)
+ => checking for updates 2/38
+ => latest available version is 4.8.3+incompatible
+    (no update needed as it's already up-to-date)
+
+=== github.com/aws/aws-sdk-go (1.44.171)
+ => checking for updates 3/38
+ => latest available version is 1.44.189
+ => latest allowed version is 1.44.189
+ => requirements to unlock: own
+ => requirements update strategy: 
+ => updating github.com/aws/aws-sdk-go from 1.44.171 to 1.44.189
+ => handled error whilst updating github.com/aws/aws-sdk-go: git_dependencies_not_reachable {:"dependency-urls"=>["github.com/deliveryhero/pd-fluid-go-sdk"]}
+
+=== github.com/buger/jsonparser (1.1.1)
+ => checking for updates 4/38
+ => latest available version is 1.1.1
+    (no update needed as it's already up-to-date)
+
+=== github.com/creasty/defaults (1.6.0)
+ => checking for updates 5/38
+ => handled error whilst updating github.com/creasty/defaults: dependency_file_not_resolvable {:message=>"go: module github.com/creasty/defaults: git ls-remote -q origin in /home/dependabot/go/pkg/mod/cache/vcs/59f06f473ec7a6feb3578447732db55cf9bac62aa15bd5579810ef57fbbab0e3: exit status 128:\n\tfatal: unable to access 'https://github.com/creasty/defaults/': gnutls_handshake() failed: The TLS connection was non-properly terminated."}
+
+=== github.com/deliveryhero/pd-fluid-go-sdk/fluid (1.9.2)
+ => checking for updates 6/38
+ => handled error whilst updating github.com/deliveryhero/pd-fluid-go-sdk/fluid: git_dependencies_not_reachable {:"dependency-urls"=>["github.com/deliveryhero/pd-fluid-go-sdk"]}
+
+=== github.com/deliveryhero/pd-go-kit (1.0.43)
+ => checking for updates 7/38
+ => handled error whilst updating github.com/deliveryhero/pd-go-kit: git_dependencies_not_reachable {:"dependency-urls"=>["github.com/deliveryhero/pd-go-kit"]}
+
+=== github.com/deliveryhero/pd-oneview-go-toolkit (1.0.0)
+ => checking for updates 8/38
+ => handled error whilst updating github.com/deliveryhero/pd-oneview-go-toolkit: git_dependencies_not_reachable {:"dependency-urls"=>["github.com/deliveryhero/pd-oneview-go-toolkit"]}
+
+=== github.com/deliveryhero/pd-protobuf-go/customer-communications (1.3.0)
+ => checking for updates 9/38
+ => handled error whilst updating github.com/deliveryhero/pd-protobuf-go/customer-communications: git_dependencies_not_reachable {:"dependency-urls"=>["github.com/deliveryhero/pd-protobuf-go"]}
+
+=== github.com/deliveryhero/pd-protobuf-go/pablo (1.0.1-0.20220110093601-557407f6d05a)
+ => checking for updates 10/38
+ => latest available version is 1.0.1-0.20220110093601-557407f6d05a
+    (no update needed as it's already up-to-date)
+
+=== github.com/deliveryhero/pd-sts-go-sdk (0.13.4)
+ => checking for updates 11/38
+ => handled error whilst updating github.com/deliveryhero/pd-sts-go-sdk: git_dependencies_not_reachable {:"dependency-urls"=>["github.com/deliveryhero/pd-sts-go-sdk"]}
+
+=== github.com/dgraph-io/ristretto (0.1.1)
+ => checking for updates 12/38
+ => latest available version is 0.1.1
+    (no update needed as it's already up-to-date)
+
+=== github.com/go-chi/chi (4.1.2+incompatible)
+ => checking for updates 13/38
+ => latest available version is 1.5.4
+    (no update needed as it's already up-to-date)
+
+=== github.com/go-chi/cors (1.2.1)
+ => checking for updates 14/38
+ => latest available version is 1.2.1
+    (no update needed as it's already up-to-date)
+
+=== github.com/go-co-op/gocron (1.18.0)
+ => checking for updates 15/38
+ => latest available version is 1.18.0
+    (no update needed as it's already up-to-date)
+
+=== github.com/go-playground/validator/v10 (10.11.1)
+ => checking for updates 16/38
+ => latest available version is 10.11.2
+ => latest allowed version is 10.11.2
+ => requirements to unlock: own
+ => requirements update strategy: 
+ => updating github.com/go-playground/validator/v10 from 10.11.1 to 10.11.2
+ => handled error whilst updating github.com/go-playground/validator/v10: git_dependencies_not_reachable {:"dependency-urls"=>["github.com/deliveryhero/pd-fluid-go-sdk"]}
+
+=== github.com/go-redis/redis/v8 (8.11.5)
+ => checking for updates 17/38
+ => latest available version is 8.11.5
+    (no update needed as it's already up-to-date)
+
+=== github.com/go-sql-driver/mysql (1.7.0)
+ => checking for updates 18/38
+ => latest available version is 1.7.0
+    (no update needed as it's already up-to-date)
+
+=== github.com/golang-jwt/jwt (3.2.2+incompatible)
+ => checking for updates 19/38
+ => latest available version is 3.2.2+incompatible
+    (no update needed as it's already up-to-date)
+
+=== github.com/golang/protobuf (1.5.2)
+ => checking for updates 20/38
+ => latest available version is 1.5.2
+    (no update needed as it's already up-to-date)
+
+=== github.com/google/uuid (1.3.0)
+ => checking for updates 21/38
+ => latest available version is 1.3.0
+    (no update needed as it's already up-to-date)
+
+=== github.com/grpc-ecosystem/go-grpc-middleware (1.3.0)
+ => checking for updates 22/38
+ => latest available version is 1.3.0
+    (no update needed as it's already up-to-date)
+
+=== github.com/grpc-ecosystem/grpc-gateway (1.16.0)
+ => checking for updates 23/38
+ => latest available version is 1.16.0
+    (no update needed as it's already up-to-date)
+
+=== github.com/hashicorp/go-multierror (1.1.1)
+ => checking for updates 24/38
+ => latest available version is 1.1.1
+    (no update needed as it's already up-to-date)
+
+=== github.com/hashicorp/go-retryablehttp (0.7.2)
+ => checking for updates 25/38
+ => latest available version is 0.7.2
+    (no update needed as it's already up-to-date)
+
+=== github.com/kelseyhightower/envconfig (1.4.0)
+ => checking for updates 26/38
+ => latest available version is 1.4.0
+    (no update needed as it's already up-to-date)
+
+=== github.com/pkg/errors (0.9.1)
+ => checking for updates 27/38
+ => latest available version is 0.9.1
+    (no update needed as it's already up-to-date)
+
+=== github.com/pressly/goose (2.7.0+incompatible)
+ => checking for updates 28/38
+ => latest available version is 2.7.0+incompatible
+    (no update needed as it's already up-to-date)
+
+=== github.com/segmentio/ksuid (1.0.4)
+ => checking for updates 29/38
+ => latest available version is 1.0.4
+    (no update needed as it's already up-to-date)
+
+=== github.com/sirupsen/logrus (1.9.0)
+ => checking for updates 30/38
+ => latest available version is 1.9.0
+    (no update needed as it's already up-to-date)
+
+=== github.com/stretchr/testify (1.8.1)
+ => checking for updates 31/38
+ => latest available version is 1.8.1
+    (no update needed as it's already up-to-date)
+
+=== github.com/wI2L/jsondiff (0.2.0)
+ => checking for updates 32/38
+ => latest available version is 0.3.0
+ => latest allowed version is 0.3.0
+ => requirements to unlock: own
+ => requirements update strategy: 
+ => updating github.com/wI2L/jsondiff from 0.2.0 to 0.3.0
+ => handled error whilst updating github.com/wI2L/jsondiff: git_dependencies_not_reachable {:"dependency-urls"=>["github.com/deliveryhero/pd-fluid-go-sdk"]}
+
+=== golang.org/x/tools (0.4.0)
+ => checking for updates 33/38
+ => latest available version is 0.5.0
+ => latest allowed version is 0.5.0
+ => requirements to unlock: own
+ => requirements update strategy: 
+ => updating golang.org/x/tools from 0.4.0 to 0.5.0
+ => handled error whilst updating golang.org/x/tools: git_dependencies_not_reachable {:"dependency-urls"=>["github.com/deliveryhero/pd-fluid-go-sdk"]}
+
+=== google.golang.org/grpc (1.51.0)
+ => checking for updates 34/38
+ => latest available version is 1.52.3
+ => latest allowed version is 1.52.3
+ => requirements to unlock: own
+ => requirements update strategy: 
+ => updating google.golang.org/grpc from 1.51.0 to 1.52.3
+ => handled error whilst updating google.golang.org/grpc: git_dependencies_not_reachable {:"dependency-urls"=>["github.com/deliveryhero/pd-fluid-go-sdk"]}
+
+=== google.golang.org/protobuf (1.28.1)
+ => checking for updates 35/38
+ => latest available version is 1.28.1
+    (no update needed as it's already up-to-date)
+
+=== gopkg.in/DataDog/dd-trace-go.v1 (1.45.1)
+ => checking for updates 36/38
+ => latest available version is 1.46.1
+ => latest allowed version is 1.46.1
+ => requirements to unlock: own
+ => requirements update strategy: 
+ => updating gopkg.in/DataDog/dd-trace-go.v1 from 1.45.1 to 1.46.1
+ => handled error whilst updating gopkg.in/DataDog/dd-trace-go.v1: git_dependencies_not_reachable {:"dependency-urls"=>["github.com/deliveryhero/pd-fluid-go-sdk"]}
+
+=== gopkg.in/yaml.v2 (2.4.0)
+ => checking for updates 37/38
+ => latest available version is 2.4.0
+    (no update needed as it's already up-to-date)
+
+=== gopkg.in/yaml.v3 (3.0.1)
+ => checking for updates 38/38
+ => latest available version is 3.0.1
+    (no update needed as it's already up-to-date)
+🌍 Total requests made: '0'
