@@ -1,5 +1,11 @@
 version: 2
-
+registries:
+  git-github-com:
+    type: git
+    url: https://github.com
+    username: x-access-token
+    password: "${{secrets.PERSONAL_GITHUB_TOKEN}}"
+    
 updates:
   - package-ecosystem: gomod
     directory: "/"
